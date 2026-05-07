@@ -1,0 +1,142 @@
+[
+  {
+    "case_id": "case_001",
+    "chief_complaint": "发热、咳嗽3天",
+    "hidden_profile": {
+      "age": 25,
+      "sex": "female",
+      "history": "无基础病，无药物过敏史",
+      "symptoms": {
+        "fever": "体温最高38.5℃",
+        "cough": "咳嗽，以干咳为主",
+        "sputum": "少量黄痰",
+        "chest_pain": "无明显胸痛",
+        "dyspnea": "无明显呼吸困难"
+      },
+      "physical_exam": {
+        "temperature": "38.2℃",
+        "heart_rate": "96次/分",
+        "lung_auscultation": "右下肺可闻及少量湿啰音"
+      },
+      "tests": {
+        "blood_test": "白细胞升高，中性粒细胞比例升高",
+        "crp": "CRP升高",
+        "chest_xray": "右下肺片状阴影",
+        "chest_ct": "右下肺炎性渗出改变"
+      },
+      "diagnosis": "社区获得性肺炎"
+    }
+  },
+  {
+    "case_id": "case_002",
+    "chief_complaint": "突发胸痛2小时",
+    "hidden_profile": {
+      "age": 58,
+      "sex": "male",
+      "history": "有高血压病史10年，长期吸烟",
+      "symptoms": {
+        "chest_pain": "胸骨后压榨样疼痛，持续不缓解",
+        "radiation": "疼痛向左肩和左臂放射",
+        "sweating": "伴大汗",
+        "nausea": "伴恶心",
+        "dyspnea": "轻度气促"
+      },
+      "physical_exam": {
+        "blood_pressure": "150/95 mmHg",
+        "heart_rate": "105次/分",
+        "heart_sound": "心音低钝"
+      },
+      "tests": {
+        "ecg": "II、III、aVF导联ST段抬高",
+        "troponin": "肌钙蛋白明显升高",
+        "ck_mb": "CK-MB升高",
+        "chest_xray": "未见明显肺部感染征象"
+      },
+      "diagnosis": "急性心肌梗死"
+    }
+  },
+  {
+    "case_id": "case_003",
+    "chief_complaint": "多饮、多尿、体重下降1个月",
+    "hidden_profile": {
+      "age": 46,
+      "sex": "female",
+      "history": "母亲有2型糖尿病史",
+      "symptoms": {
+        "polydipsia": "明显口渴，多饮",
+        "polyuria": "夜尿增多",
+        "weight_loss": "1个月体重下降约4公斤",
+        "fatigue": "乏力",
+        "blurred_vision": "偶有视物模糊"
+      },
+      "physical_exam": {
+        "bmi": "28 kg/m2",
+        "blood_pressure": "135/85 mmHg"
+      },
+      "tests": {
+        "fasting_glucose": "空腹血糖9.8 mmol/L",
+        "random_glucose": "随机血糖15.2 mmol/L",
+        "hba1c": "HbA1c 8.7%",
+        "urine_glucose": "尿糖阳性"
+      },
+      "diagnosis": "2型糖尿病"
+    }
+  },
+  {
+    "case_id": "case_004",
+    "chief_complaint": "右下腹痛12小时",
+    "hidden_profile": {
+      "age": 20,
+      "sex": "male",
+      "history": "既往体健",
+      "symptoms": {
+        "abdominal_pain": "起初为脐周痛，后转移至右下腹",
+        "fever": "低热",
+        "nausea": "恶心",
+        "vomiting": "呕吐1次",
+        "diarrhea": "无明显腹泻"
+      },
+      "physical_exam": {
+        "temperature": "37.8℃",
+        "mcburney_tenderness": "麦氏点压痛阳性",
+        "rebound_tenderness": "轻度反跳痛",
+        "bowel_sound": "肠鸣音稍弱"
+      },
+      "tests": {
+        "blood_test": "白细胞升高",
+        "abdominal_ultrasound": "阑尾增粗，周围少量渗出",
+        "abdominal_ct": "考虑急性阑尾炎"
+      },
+      "diagnosis": "急性阑尾炎"
+    }
+  },
+  {
+    "case_id": "case_005",
+    "chief_complaint": "突发呼吸困难伴胸痛1小时",
+    "hidden_profile": {
+      "age": 35,
+      "sex": "female",
+      "history": "近期长途飞行后出现下肢酸胀",
+      "symptoms": {
+        "dyspnea": "突发呼吸困难",
+        "chest_pain": "胸痛，吸气时加重",
+        "cough": "轻微咳嗽",
+        "hemoptysis": "少量咯血",
+        "leg_pain": "左小腿酸胀"
+      },
+      "physical_exam": {
+        "heart_rate": "118次/分",
+        "spo2": "92%",
+        "respiratory_rate": "26次/分",
+        "leg_exam": "左小腿轻度肿胀、压痛"
+      },
+      "tests": {
+        "d_dimer": "D-二聚体明显升高",
+        "arterial_blood_gas": "低氧血症",
+        "ctpa": "肺动脉分支充盈缺损",
+        "lower_limb_ultrasound": "左下肢深静脉血栓形成"
+      },
+      "diagnosis": "肺栓塞"
+    }
+  }
+]
