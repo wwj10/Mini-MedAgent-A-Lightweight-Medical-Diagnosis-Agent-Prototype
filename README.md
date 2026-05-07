@@ -7,6 +7,8 @@ The system simulates a multi-turn diagnostic environment where a DoctorAgent can
 
 This project is inspired by medical agent research such as interactive diagnosis, process-level feedback, and experience-based agent evolution.
 
+Note: This is only a phased achievement of current learning, intended solely for record-keeping. Continued improvements and enhancements will be made in the future
+
 ## 2. Core Idea
 
 The project implements a simplified Diagnose–Grade–Evolve loop:
@@ -132,3 +134,29 @@ memory_retrieval_mode = "embedding"
 memory_top_k = 5
 memory_similarity_threshold = 0.35
 memory_prompt_style = "full"
+
+## 8. How to Run
+8.1 Install dependencies
+pip install -r requirements.txt
+
+8.2 Configure API key
+
+Create a .env file in the project root:
+
+OPENAI_API_KEY=your_api_key
+OPENAI_BASE_URL=https://api.your api url.com
+MODEL_NAME=your MODEL
+8.3 Run a single case
+python tests/check_episode_runner.py
+
+8.4 Run batch experiment
+python tests/check_batch_runner.py
+
+8.5 Run memory ablation
+python tests/check_memory_ablation.py
+
+8.6 Run retrieval ablation
+python tests/check_retrieval_ablation.py
+
+8.7 Run memory compression ablation
+python tests/check_memory_compression_ablation.py
