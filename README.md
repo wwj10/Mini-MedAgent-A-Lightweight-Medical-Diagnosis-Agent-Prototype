@@ -1,5 +1,4 @@
 # Mini-MedAgent-A-Lightweight-Medical-Diagnosis-Agent-Prototype
-# Mini-MedAgent: A Lightweight Medical Diagnosis Agent Prototype
 
 ## 1. Project Overview
 
